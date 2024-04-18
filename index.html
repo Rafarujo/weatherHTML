@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personalizador de Widget de Clima</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Personalizador de Widget de Clima</h1>
+        <div id="options">
+            <label for="city">Nome da cidade:</label>
+            <input type="text" id="city" value="Brasília">
+            <br>
+            <label for="background-color">Cor de fundo:</label>
+            <input type="color" id="background-color" value="#0072a3">
+            <br>
+            <label for="border-toggle">Borda:</label>
+            <input type="checkbox" id="border-toggle" unchecked>
+            <br>
+            <label for="text-color">Cor do texto:</label>
+            <input type="color" id="text-color" value="#ffffff">
+  <div id="preview">
+            <h2>Visualização:</h2>
+            <div id="widget-preview">
+                <!-- O widget de clima será exibido aqui -->
+            </div>
+        </div>
+            <br>
+            <button id="apply">Aplicar</button>
+        </div>
+      
+        <textarea id="code-output" readonly></textarea>
+        <button id="copy">Copiar código</button><footer>
+ <br>
+ <br><footer>
+        Desenvolvido por <a href="https://github.com/Rafarujo/TickerNews/tree/main" target="_blank">Rafarujo</a>
+    </footer>
+    </div>
+
+</body>
+
+</html>
